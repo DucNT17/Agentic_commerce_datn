@@ -1,0 +1,10 @@
+# This file is auto-generated from pyproject.toml
+# To install, use: pip install -e ".[dev]"
+# Or for production: pip install -e .
+
+requests
+python-dotenv
+
+alembic
+sqlalchemy>=1.4
+psycopg2-binary

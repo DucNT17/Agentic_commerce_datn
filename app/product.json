@@ -1,0 +1,117 @@
+{
+  "href": "https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search?q=laptop+gaming&limit=1&offset=0",
+  "total": 2,
+  "next": "https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search?q=laptop+gaming&limit=1&offset=1",
+  "limit": 1,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|110588318818|0",
+      "title": "ACEMAGIC RX16 16\" Gaming Laptop AMD Ryzen 7 6800H 16GB DDR5 512GB SSD Win 11 Pro",
+      "leafCategoryIds": [
+        "177"
+      ],
+      "categories": [
+        {
+          "categoryId": "177",
+          "categoryName": "PC Laptops & Netbooks"
+        },
+        {
+          "categoryId": "58058",
+          "categoryName": "Computers/Tablets & Networking"
+        },
+        {
+          "categoryId": "175672",
+          "categoryName": "Laptops & Netbooks"
+        }
+      ],
+      "image": {
+        "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/9NMAAOSwhONoVpde/s-l225.jpg"
+      },
+      "price": {
+        "value": "459.00",
+        "currency": "USD"
+      },
+      "itemHref": "https://api.sandbox.ebay.com/buy/browse/v1/item/v1%7C110588318818%7C0",
+      "seller": {
+        "username": "testuser_pa4_demo_5",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 2
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/9NMAAOSwhONoVpde/s-l1200.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "USD"
+          }
+        }
+      ],
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://cgi.sandbox.ebay.com/itm/ACEMAGIC-RX16-16-Gaming-Laptop-AMD-Ryzen-7-6800H-16GB-DDR5-512GB-SSD-Win-11-Pro/110588318818?src=urllib&_skw=laptop+gaming&hash=item19bf93d462:g:9NMAAOSwhONoVpde",
+      "itemLocation": {
+        "postalCode": "917**",
+        "country": "US"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/q-oAAOSw9cNn~Mu4/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/cukAAOSwS~1nblnn/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/nFoAAOSwVtJnblns/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/OfQAAOSwRGlnblnu/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/aMYAAOSwRFNnblnv/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/v~QAAOSwVYdnblnx/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/FecAAOSwsYNnblny/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/okoAAOSwVytnbln0/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/3VgAAOSwhXhoVn9v/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/2fQAAOSw4T9oVn9w/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/kaUAAOSwnVloVl0p/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/I-kAAOSwzbpoVn9w/s-l225.jpg"
+        },
+        {
+          "imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/aMQAAOSwppZoVn9x/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "110588318818",
+      "availableCoupons": false,
+      "itemOriginDate": "2025-07-22T01:46:04.000Z",
+      "itemCreationDate": "2025-07-22T01:46:04.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_US"
+    }
+  ]
+}

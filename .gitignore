@@ -1,0 +1,249 @@
+# ============================================================================
+# Global .gitignore for DATN E-Commerce Agentic AI Project
+# ============================================================================
+
+# ===========================
+# Python (Backend)
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.cache
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ===========================
+# Node.js (Frontend)
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Frontend build outputs
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+frontend/.nuxt/
+frontend/.cache/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# ===========================
+# Database
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+postgresql/
+mysql/
+
+# Vector Database
+chroma_db/
+vector_db/
+*.index
+backend/chroma_db/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+log/
+backend/logs/
+frontend/logs/
+npm-debug.log
+yarn-error.log
+
+# ===========================
+# IDE & Editors
+# ===========================
+# VSCode
+.vscode/
+.vscode-test/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===========================
+# OS Generated
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+.dockerignore
+
+# ===========================
+# Redis
+# ===========================
+dump.rdb
+*.rdb
+
+# ===========================
+# Celery
+# ===========================
+celerybeat-schedule
+celerybeat.pid
+
+# ===========================
+# Uploads & Media
+# ===========================
+uploads/
+media/
+static/
+backend/uploads/
+frontend/public/uploads/
+
+# ===========================
+# Temporary files
+# ===========================
+tmp/
+temp/
+*.tmp
+.temp/
+
+# ===========================
+# CI/CD
+# ===========================
+.github/workflows/.env
+
+# ===========================
+# Sentry
+# ===========================
+.sentryclirc
+
+# ===========================
+# Terraform (if used)
+# ===========================
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# ===========================
+# Secrets & Credentials
+# ===========================
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ===========================
+# Monitoring & Profiling
+# ===========================
+.profiling/
+*.prof
+
+# ===========================
+# Documentation builds
+# ===========================
+docs/_build/
+docs/.doctrees/
+site/
+
+# ===========================
+# Package managers lock files (optional)
+# Uncomment if you want to ignore lock files
+# ===========================
+# package-lock.json
+# yarn.lock
+# poetry.lock
+# Pipfile.lock
+
